@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: fit-content;
+  position: sticky;
+  padding: 5.86vh 5.56vw 0 5.56vw;
+}
+
+.navbar {
+  top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 77.5px;
+  background-color: #c5c4c4;
+  height: 75px;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 0 82.5px;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-wrap: nowrap;
+}
+
+/* @media (screin-size){
+  .navbar{
+    width: 67.8%;
+  }
+} */

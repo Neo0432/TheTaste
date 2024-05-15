@@ -1,0 +1,15 @@
+.bgImg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.headerOth{
+    position: relative;
+    height: 20.9vh;
+  }
+.bgImgOth {
+  position: absolute;
+  width: 100%;
+  height: 20.9vh;
+  object-fit: cover;
+}

@@ -1,0 +1,59 @@
+.aboutArea {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 62.1094%;
+  height: fit-content;
+  margin-bottom: 45px;
+}
+.area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48.88%;
+  height: 100%;
+  padding: 4.5035%;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0px 16.9px 26.3px rgba(0, 0, 0, 0.25);
+}
+.smallText {
+  margin: 0;
+  margin-bottom: 3.75px;
+  font-size: 1em;
+  color: #626262;
+}
+.title {
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 1.9em;
+}
+.content {
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 1.4em;
+  text-align: center;
+  color: #626262;
+}
+.content p{
+  max-height: 285px;
+}
+.form {
+  width: 55.5%;
+  height: 80px;
+}
+.button {
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  color: #ffff;
+  font-size: 1.5em;
+  background-color: #ff7300;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #cc5c00;
+}

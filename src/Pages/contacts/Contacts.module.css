@@ -1,0 +1,46 @@
+.pageTitle {
+  font-size: 1.75em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 3.125vh;
+}
+.frame {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.56vh;
+}
+.contacts_content_element {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vh;
+}
+.contacts_content_element_type {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #626262;
+}
+.contacts_content_element_value {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.contacts_content_element_socials {
+  display: flex;
+  width: 304px;
+  gap: 5.26%;
+}
+.contacts_map p {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.contacts_map iframe {
+  display: flex;
+  width: 48.4vw;
+  height: 32.9vh;
+  border: 0;
+  border-radius: 8px;
+}

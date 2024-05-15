@@ -1,0 +1,140 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 606.6px;
+  color: #ffff;
+}
+.backgroundImg {
+  position: absolute;
+  width: 100%;
+  /* height: 606.6px; */
+  height: 100%;
+  z-index: -1;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 4.68vh 5.56vw 5.86vh 5.56vw;
+}
+.Title {
+  font-size: 1.6em;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.leftContent {
+  display: flex;
+  flex-direction: column;
+}
+.cardsArea {
+  display: grid;
+  /* grid-template-columns: 474.4px 343px; */
+  grid-template-columns: 474px 474px;
+  grid-template-rows: 67.5px;
+  margin-bottom: 45px;
+}
+.card {
+  display: flex;
+  align-items: end;
+  height: fit-content;
+  padding-right: 160.3px;
+}
+.ico {
+  height: 45px;
+  margin-right: 3.6%;
+}
+.key {
+  margin: 0;
+  font-size: 1.05em;
+  font-weight: 400;
+}
+.value {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+.socialCard {
+  display: flex;
+  flex-direction: column;
+}
+.socialCard p {
+  margin: 0;
+  margin-bottom: 4.7px;
+  font-size: 1.05em;
+  font-weight: 400;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+.socialIco {
+  /* background-color: lightblue; */
+  /* height: 26.25px; */
+  height: 32px;
+  fill: rgb(0, 110, 255);
+}
+.socialIco:hover {
+  fill: rgb(0, 110, 255);
+}
+.Map {
+  width: 90%;
+  height: 240px;
+}
+.Map iframe {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  border: none;
+  border-radius: 8px;
+}
+.rightContent {
+  width: 22.6%;
+}
+.Timetable {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, 0.4);
+  padding: 22.5px;
+  margin-bottom: 22.5px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1em;
+}
+.Timetable p {
+  margin: 0;
+  margin-bottom: 22.6px;
+}
+.Timetable p:last-child {
+  margin-bottom: 0px;
+}
+.TimetableHeader {
+  font-size: 1.6em;
+}
+.TimetableDayTime {
+  display: flex;
+  justify-content: space-between;
+}
+.TimetableDay {
+  width: 50%;
+  text-align: left;
+}
+.TimetableTime {
+  width: 50%;
+  text-align: right;
+}
+.button {
+  width: 100%;
+  height: 70.3px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff7300;
+  color: #ffff;
+  font-size: 1.2em;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #cc5c00;
+}

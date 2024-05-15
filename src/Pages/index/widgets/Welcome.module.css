@@ -1,0 +1,31 @@
+.area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18.8%;
+  width: fit-content;
+  max-height: 191.3px;
+  border-radius: 8px;
+  color: #ffff;
+}
+.text :first-child {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0px;
+}
+.text :last-child {
+  font-size: 1.3em;
+  margin: 12px 0 30px 0;
+}
+.button {
+  width: 366.6px;
+  height: 75px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff7300;
+  color: #ffff;
+  font-size: 1.5em;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #cc5c00;
+}
